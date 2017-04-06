@@ -1,0 +1,41 @@
+body{
+/*    font-weight: bolder;*/
+}
+#main_body{
+    border: 2px solid grey;
+    margin-left: 10%;
+    padding:3px;
+    width: 500px;
+    text-align: center;
+}
+#textArea{
+    height:250px;
+    margin: 10px 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    text-align:right;
+    word-wrap: break-word;
+    font-size: 52px;
+}
+/*.no,.sym,#equals,#point{*/
+button{
+    display: inline-block;
+    height:60px;
+    width: 120px;
+    border: 1.5px solid #09f;
+    margin-top: 2px;
+    font-weight: 600;
+}
+/*#tAreaTop{
+    color: #9dbfed;
+}
+#tAreaBottom{
+    
+}*/
+button:hover{
+    cursor: pointer;
+    background-color: #9dbfed;
+}
+button:active{
+    border: 4px solid white;
+}
